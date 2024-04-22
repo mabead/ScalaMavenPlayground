@@ -1,4 +1,4 @@
-package com.my-org
+package com.myorg
 
 /**
  * @author ${user.name}
