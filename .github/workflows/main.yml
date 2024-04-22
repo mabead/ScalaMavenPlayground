@@ -53,10 +53,10 @@ jobs:
           distribution: "temurin"
           cache: maven
 
-      #   - name: Restore target folders
-      #     uses: actions/download-artifact@v4
-      #     with:
-      #       name: TargetFolders
+      - name: Restore target folders
+        uses: actions/download-artifact@v4
+        with:
+          name: TargetFolders
 
       - name: Maven package
         working-directory: ./my-app
